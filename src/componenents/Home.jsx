@@ -3,6 +3,7 @@ import Banner from './Banner/Banner';
 import WelcomeMessage from './Section/WelcomeMessage';
 import ServicesHighlights from './Section/ServicesHighlights';
 import WhyChooseUs from './Section/WhyChooseUs';
+import FreeConsultation from './Section/FreeConsultation';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <WelcomeMessage></WelcomeMessage>
             <ServicesHighlights></ServicesHighlights>
             <WhyChooseUs></WhyChooseUs>
+            <FreeConsultation></FreeConsultation>
         </div>
     );
 };

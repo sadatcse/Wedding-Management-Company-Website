@@ -3,7 +3,7 @@ import { FaMailchimp, FaMapMarkerAlt, FaMobileAlt } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <footer className="footer p-10 text-base-content" style={{ backgroundImage: "url('https://softexpo.com.bd//assets/frontend/images/footer-bg.webp')" }}>
+        <footer className="footer p-10 text-base-content" style={{ backgroundImage: "url('https://i.ibb.co/r0nWmTM/footer-bg.webp')" }}>
         <aside className=''>
         <div class="flex items-center">
     <img src="https://www.transparentpng.com/thumb/s/lkybg6-file-bahn-logo-svg-wikimedia-commons.png" alt="Your Image Description" class="w-9 h-9"></img>
