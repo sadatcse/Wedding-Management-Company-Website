@@ -7,8 +7,8 @@ const ServiceSucessOrganizer = () => {
     const currentDate = moment().format('LL'); // 
 
     return (
-        <div className="bg-gray-100 p-8 border-b-4">
-        <div className="flex justify-between divide-x divide-dashed hover:divide-solid">
+        <div className="bg-gradient-to-r from-purple-50 via-blue-50 to-green-50 p-8 rounded-lg shadow-lg ">
+            <div className="flex justify-between divide-x divide-dashed hover:divide-solid">
             {/* Service Providers */}
             <div className="text-center w-1/3 px-1 flex flex-col items-center">
                 <div className="bg-blue-100 rounded-full p-4 mb-4">
@@ -38,6 +38,8 @@ const ServiceSucessOrganizer = () => {
         </div>
 
         <p className="text-center text-gray-700 mt-6">Last updated on {currentDate}</p>
+
+        
     </div>
 );
 };

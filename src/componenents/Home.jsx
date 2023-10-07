@@ -4,6 +4,7 @@ import WelcomeMessage from './Section/WelcomeMessage';
 import ServicesHighlights from './Section/ServicesHighlights';
 import WhyChooseUs from './Section/WhyChooseUs';
 import FreeConsultation from './Section/FreeConsultation';
+import ServiceSucessOrganizer from './Section/ServiceSucessOrganizer';
 
 const Home = () => {
     return (
@@ -11,6 +12,8 @@ const Home = () => {
             <Banner></Banner>
             <WelcomeMessage></WelcomeMessage>
             <ServicesHighlights></ServicesHighlights>
+            <ServiceSucessOrganizer></ServiceSucessOrganizer>
+            
             <WhyChooseUs></WhyChooseUs>
             <FreeConsultation></FreeConsultation>
         </div>

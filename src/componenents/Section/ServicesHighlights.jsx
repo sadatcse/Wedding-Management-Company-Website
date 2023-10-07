@@ -1,8 +1,9 @@
 import React from 'react';
+import './Section.css'
 
 const ServicesHighlights = () => {
     return (
-        <div>
+        <div className='max-container'>
             <h1 className="text-3xl font-bold underline">
       Service Highlights
     </h1>
