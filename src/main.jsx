@@ -15,6 +15,7 @@ import Packages from './componenents/Page/Packages';
 import Portfolio from './componenents/Page/Portfolio';
 import About from './componenents/Page/About';
 import Services from './componenents/Page/Services/Services';
+import Error404 from './componenents/Page/Error404';
 
 
 
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root/>,
+    errorElement: <Error404></Error404>,
     children: [
       {
         path:'/',
@@ -36,23 +38,23 @@ const router = createBrowserRouter([
         element:<Registration></Registration>
       },
       {
-        path:'/About',
+        path:'/about',
         element:<About></About>
       },
       {
-        path:'/Service',
+        path:'/service',
         element:<Services></Services>
       },
       {
-        path:'/Portfolio',
+        path:'/portfolio',
         element:<Portfolio></Portfolio>
       },
       {
-        path:'/Packages',
+        path:'/packages',
         element:<Packages></Packages>
       },
       {
-        path:'/Contact',
+        path:'/contact',
         element:<Contact></Contact>
       }
     ]

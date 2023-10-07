@@ -4,6 +4,11 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
     const navlinks = <> 
     <li><NavLink to="/">Home</NavLink></li>
+    <li><NavLink to="/about">About</NavLink></li>
+    <li><NavLink to="/service">Service</NavLink></li>
+    <li><NavLink to="/portfolio">Portfolio</NavLink></li>
+    <li><NavLink to="/packages">Packages</NavLink></li>
+    <li><NavLink to="/contact">Contact</NavLink></li>
     <li><NavLink to="/login">Login</NavLink></li>
     <li><NavLink to="/Registration">Registration</NavLink></li>
     </>
@@ -20,11 +25,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="flex items-center">
-            <img
-              src="logo.png" // Replace with your logo image source
-              alt="Company Logo"
-              className="h-2/4 w-2/4 mr-2"
-            />
+            <img src="logo.png" alt="Company Logo"className="h-2/4 w-2/4 mr-2"/>
 
           </div>
             </div>

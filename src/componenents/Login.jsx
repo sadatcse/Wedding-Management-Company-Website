@@ -1,6 +1,10 @@
 import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
+  const notify = () => toast("Wow so easy!");
+
     return (
         <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
@@ -29,6 +33,10 @@ const Login = () => {
                 <button className="btn btn-primary">Login</button>
               </div>
             </form>
+            <div>
+        <button onClick={notify}>Notify!</button>
+        <ToastContainer />
+      </div>
           </div>
         </div>
       </div>
