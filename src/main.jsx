@@ -6,23 +6,26 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css'
-import Root from './componenents/root';
-import Home from './componenents/Home';
-import Login from './componenents/Login';
-import Registration from './componenents/Registration';
-import Contact from './componenents/Page/Contact';
-import Packages from './componenents/Page/Packages';
-import Portfolio from './componenents/Page/Portfolio';
-import About from './componenents/Page/About';
-import Services from './componenents/Page/Services/Services';
-import Error404 from './componenents/Page/Error404';
+
+import Home from './components/Home';
+import Login from './components/Login';
+import Contact from './components/Page/Contact';
+import Packages from './components/Page/Packages';
+import Portfolio from './components/Page/Portfolio';
+import About from './components/Page/About';
+import Services from './components/Page/Services/Services';
+import Error404 from './components/Page/Error404';
+import AuthProvider from './providers/AuthProvider';
+import PrivateRoute from './routes/PrivateRoute';
+import Registration from './components/Registration';
+import Root from './components/Root';
 
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root/>,
+    element: <Root></Root>,
     errorElement: <Error404></Error404>,
     children: [
       {
@@ -47,7 +50,7 @@ const router = createBrowserRouter([
       },
       {
         path:'/portfolio',
-        element:<Portfolio></Portfolio>
+        element:<PrivateRoute><Portfolio></Portfolio></PrivateRoute>
       },
       {
         path:'/packages',
@@ -55,13 +58,15 @@ const router = createBrowserRouter([
       },
       {
         path:'/contact',
-        element:<Contact></Contact>
+        element:<Contact></Contact> 
       }
     ]
   },
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
   </React.StrictMode>,
 )

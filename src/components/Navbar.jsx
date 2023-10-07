@@ -1,7 +1,24 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { useContext } from "react";
+import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../providers/AuthProvider";
+import {toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Navbar = () => {
+  const { user, logOut } = useContext(AuthContext);
+
+  const handleLogOut = () => {
+    logOut()
+      .then(() => {
+        toast.success(`${user.displayName} logged out successfully`); 
+      })
+      .catch((error) => {
+        toast.error('Logout failed. Please try again later.');
+        console.error(error);
+      });
+  };
+  
     const navlinks = <> 
     <li><NavLink to="/">Home</NavLink></li>
     <li><NavLink to="/about">About</NavLink></li>
@@ -9,8 +26,11 @@ const Navbar = () => {
     <li><NavLink to="/portfolio">Portfolio</NavLink></li>
     <li><NavLink to="/packages">Packages</NavLink></li>
     <li><NavLink to="/contact">Contact</NavLink></li>
-    <li><NavLink to="/login">Login</NavLink></li>
     <li><NavLink to="/Registration">Registration</NavLink></li>
+    { user && <>
+            <li><NavLink to="/profile">Profile</NavLink></li>
+            <li><NavLink to="/dashboard">Dashboard</NavLink></li>
+        </>}
     </>
 
     return (
@@ -35,14 +55,28 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-            <div>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
-              Login
-            </button>
-          </div>
+                {
+                    user ? <>
+                        <div className='me-2'>   
+                        <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+                        <div class="w-10 rounded-full">
+                        <img src={user.photoURL} />
+                        </div>
+                        </label></div>
+                      
+                        <span>{user.displayName}</span>
+                        <a onClick={handleLogOut} className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Sign out</a>
+                    </> 
+                    : <NavLink><Link to="/login">
+                        <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Login</button>
+                    </Link></NavLink>
+                }
+                
             </div>
         </div>
     );
 };
 
 export default Navbar;
+
+
