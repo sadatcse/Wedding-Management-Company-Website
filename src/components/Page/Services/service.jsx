@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 const Service = ({ card }) => {
     return (
-        <div className="card card-compact w-96  shadow-xl">
+        <div className="card card-compact w-96  shadow-xl border">
         <figure><img className='h-56' src={card.image} alt={card.name} /></figure>
         <div className="card-body">
-          <h2 className="card-title">{card.name} <div className="badge badge-secondary">NEW</div></h2>
-          <p>{card.shortDescription}</p>
+          <h2 className="card-title">{card.name}</h2>
+          <p c>{card.shortDescription}</p>
           <div className="flex card-actions justify-between">
             <div>
             <p className='font-mono hover:font-serif text-base	 font-semibold'>Price Range :{card.price}</p>

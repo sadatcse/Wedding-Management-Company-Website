@@ -1,10 +1,11 @@
 import React from 'react';
 import './Section.css'
-import { useDataContext } from '../../context/DataContext';
+
 import Service from '../Page/Services/service';
 
-const ServicesHighlights = () => {
-const cardsData = useDataContext();
+const ServicesHighlights = ({cardsData}) => {
+  console.log(cardsData)
+
 
     return (
         <div className="container mx-auto py-8">

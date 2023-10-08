@@ -1,5 +1,6 @@
 import { useLoaderData, useParams } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import FreeConsultation from '../../Section/FreeConsultation';
 
 const Detailsservice = () => {
   const services = useLoaderData();
@@ -53,7 +54,9 @@ const Detailsservice = () => {
           ))}
         </div>
       </div>
+      <FreeConsultation></FreeConsultation>
     </div>
+    
   );
 };
 

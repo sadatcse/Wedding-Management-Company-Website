@@ -35,7 +35,8 @@ const router = createBrowserRouter([
     children: [
       {
         path:'/',
-        element:<Home></Home>
+        element:<Home></Home>,
+        loader: () => fetch('/ServiceData.json')
       },
       {
         path:'/login',
@@ -51,7 +52,8 @@ const router = createBrowserRouter([
       },
       {
         path:'/service',
-        element:<Services></Services>
+        element:<Services></Services>,
+        loader: () => fetch('/ServiceData.json') 
       },
       {
         path:'/portfolio',
@@ -59,7 +61,7 @@ const router = createBrowserRouter([
       },
       {
         path:'/packages',
-        element:<Packages></Packages>
+        element:<PrivateRoute><Packages></Packages></PrivateRoute>
       },
       {
         path:'/contact',
@@ -67,20 +69,16 @@ const router = createBrowserRouter([
       },
       {
         path: '/service/:id',
-        element:<Detailsservice></Detailsservice>, 
+        element:<PrivateRoute><Detailsservice></Detailsservice></PrivateRoute>, 
         loader: () => fetch('/ServiceData.json') 
       }
     ]
   },
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <DataProvider>
-
- 
   <React.StrictMode>
     <AuthProvider>
       <RouterProvider router={router} />
       </AuthProvider>
-      </React.StrictMode>
-      </DataProvider>,
+      </React.StrictMode>,
 )

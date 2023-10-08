@@ -23,7 +23,7 @@ const Login = () => {
                 navigate('/');
             })
             .catch((error) => {
-                toast.error("Login failed. Please check your credentials.");
+                toast.error("Login failed. Please check your Email or Password.");
                 console.error(error);
             });
     };
