@@ -1,0 +1,248 @@
+[
+    {
+      "serviceId": "01",
+      "name": "Venue Booking & Decoration",
+      "sologan": "Transforming Spaces, Creating Dreams.",
+      "image": "https://www.purplemartininn.com/wp-content/uploads/2022/10/prepared-wedding-hall.jpg",
+      "price": "$2,000 - $5,000",
+      "shortDescription": "Transform your venue into a dream setting with our expert decoration services.",
+      "fullDescription": "Our venue booking and decoration services are designed to turn your wedding venue into an enchanting and magical space. We offer a wide range of decorative options to match your theme and style. From elegant drapery and floral arrangements to custom lighting and centerpieces, we pay meticulous attention to detail to create the perfect ambiance for your special day. Whether you're planning an intimate gathering or a grand celebration, our experienced team will work closely with you to bring your vision to life. With our expertise, you can relax and enjoy your wedding day while we handle all aspects of venue decoration, leaving you with beautiful memories.",
+      "buttonColor": "#FF5733",
+      "keyelements":"Our venue booking and decoration services are centered around several key elements that combine to create a magical and enchanting atmosphere for your wedding",
+      "Elements": {
+        "DraperyAndFabricArtistry": "Elegant drapery and fabric play a pivotal role in enhancing the aesthetics of your venue. Our team of skilled artisans will expertly drape fabrics in a way that complements your theme and style.",
+        "FloralArrangements": "Flowers are the quintessential symbols of love and beauty, and they add an ethereal touch to any wedding venue. Our talented floral designers will create breathtaking arrangements that incorporate your favorite blooms and colors.",
+        "CustomLighting": "The right lighting can transform the atmosphere of your wedding venue from ordinary to extraordinary. We offer custom lighting solutions that include romantic candlelight, twinkling fairy lights, and dynamic LED displays.",
+        "CenterpiecesAndTablescapes": "The dining area is where your guests will spend a significant portion of the celebration. We take great care in designing stunning centerpieces and tablescapes that leave a lasting impression.",
+        "AisleDecor": "The aisle is where your journey to forever begins, and we ensure it's a breathtaking one. Our aisle decor options range from elegant floral arrangements to ornate lanterns and petals that lead you to the altar.",
+        "BackdropsAndPhotoOpportunities": "Your wedding photos will be cherished memories for years to come. We provide exquisite backdrops and photo opportunities that enhance the visual appeal of your pictures."
+    },
+    "BeautifulImages": [
+      { "id": 1, "url": "https://i.ibb.co/8Bv7B5W/iamge-2.jpg" },
+      { "id": 2, "url": "https://i.ibb.co/7pV95yF/iamge-4.jpg" },
+      { "id": 3, "url": "https://i.ibb.co/ypR63vs/iamge-5.jpg" },
+      { "id": 4, "url": "https://i.ibb.co/kDkJsvV/image-3.jpg" },
+      { "id": 5, "url": "https://i.ibb.co/ChvhqG7/iamge-7.jpg" },
+      { "id": 6, "url": "https://i.ibb.co/98wzN0V/image-6.jpg" }
+
+    ]
+    },
+    {
+      "serviceId": "02",
+      "name": "Invitation Design & Printing",
+      "slogan": "Elegance Unveiled, Invitations Perfected.",
+      "image": "https://www.themandatepress.com/wp-content/uploads/2017/02/GFP_9985-740x494.jpg",
+      "price": "$500 - $1,000",
+      "shortDescription": "Create elegant and personalized invitation cards for your special day.",
+      "fullDescription": "Make a lasting impression with our invitation design and printing services. We specialize in crafting elegant and personalized invitation cards that reflect your unique style and wedding theme. Our team of talented designers will work closely with you to create a one-of-a-kind invitation that sets the tone for your wedding. We use high-quality materials and printing techniques to ensure your invitations are nothing short of spectacular. From classic and timeless designs to modern and creative concepts, we have the expertise to bring your vision to life. Let us help you make your wedding invitations as unique as your love story.",
+      "buttonColor": "#4287f5",
+      "keyelements": "Our invitation design and printing services are centered around several key elements that make your wedding invitations truly special.",
+      "Elements": {
+        "PersonalizedDesigns": "We offer personalized design services that cater to your unique style and wedding theme. Your invitations will stand out with custom artwork and layouts.",
+        "HighQualityMaterials": "We use only the finest materials, ensuring that your invitations not only look beautiful but also feel exquisite to the touch.",
+        "AttentionToDetail": "Our team pays meticulous attention to detail, ensuring that every element of your invitation, from typography to color, is perfect.",
+        "VarietyOfStyles": "Choose from a wide range of styles, from classic and traditional to modern and creative, to match your wedding's personality.",
+        "PrintingExcellence": "We employ advanced printing techniques to ensure that your invitations are of the highest quality, with vibrant colors and sharp details.",
+        "TimelyDelivery": "We understand the importance of timing for your wedding preparations. Count on us for prompt and reliable delivery of your invitation cards."
+      },
+      "BeautifulImages": [
+        { "id": 1, "url": "https://i.ibb.co/8Bv7B5W/iamge-2.jpg" },
+        { "id": 2, "url": "https://i.ibb.co/7pV95yF/iamge-4.jpg" },
+        { "id": 3, "url": "https://i.ibb.co/ypR63vs/iamge-5.jpg" },
+        { "id": 4, "url": "https://i.ibb.co/kDkJsvV/image-3.jpg" },
+        { "id": 5, "url": "https://i.ibb.co/ChvhqG7/iamge-7.jpg" },
+        { "id": 6, "url": "https://i.ibb.co/98wzN0V/image-6.jpg" }
+      ]
+      },
+    {
+      "serviceId": "03",
+      "name": "Photography & Video",
+      "slogan": "Capturing Timeless Emotions, Crafting Lifelong Memories.",
+      "image": "https://youthincmag.com/wp-content/uploads/2013/06/wedding-696x464.jpg",
+      "price": "$3,000 - $7,000",
+      "shortDescription": "Capture every moment of your wedding with stunning photos and videos.",
+      "fullDescription": "Our photography and cinematography services are dedicated to capturing every beautiful moment of your wedding day. Our experienced team of photographers and videographers uses the latest equipment and techniques to create stunning visuals that you'll cherish forever. From candid shots to cinematic videos, we ensure that no moment is overlooked. We believe in storytelling through images, and our goal is to capture the genuine emotions and memories of your special day. With our expertise, you can relive your wedding day through breathtaking photographs and videos that capture the essence of your love story.",
+      "buttonColor": "#FFD700",
+      "keyelements": "Our photography and videography services focus on key elements that preserve the essence of your special day.",
+      "Elements": {
+        "CandidMoments": "We specialize in capturing candid moments, ensuring that genuine emotions and spontaneous reactions are preserved.",
+        "High-QualityEquipment": "Our team uses the latest high-quality cameras and equipment to deliver stunning visuals with sharp details.",
+        "Storytelling": "We believe in storytelling through images and videos, crafting a narrative that captures the essence of your love story.",
+        "CreativeEditing": "Our skilled editors work diligently to create cinematic videos and retouch photographs to perfection.",
+        "ComprehensiveCoverage": "We provide comprehensive coverage, ensuring that no important moment of your wedding day is missed.",
+        "PersonalizedPackages": "Our services can be tailored to your needs, with personalized packages to suit your preferences."
+      },
+      "BeautifulImages": [
+        { "id": 1, "url": "https://i.ibb.co/8Bv7B5W/iamge-2.jpg" },
+        { "id": 2, "url": "https://i.ibb.co/7pV95yF/iamge-4.jpg" },
+        { "id": 3, "url": "https://i.ibb.co/ypR63vs/iamge-5.jpg" },
+        { "id": 4, "url": "https://i.ibb.co/kDkJsvV/image-3.jpg" },
+        { "id": 5, "url": "https://i.ibb.co/ChvhqG7/iamge-7.jpg" },
+        { "id": 6, "url": "https://i.ibb.co/98wzN0V/image-6.jpg" }
+      ]
+      },
+    {
+      "serviceId": "04",
+      "name": "Catering & Food Presentation",
+      "slogan": "Savoring Every Moment, Tasting Perfection.",
+      "image": "https://www.catersource.com/sites/default/files/3%20tier%20mineo.png",
+      "price": "$4,000 - $8,000",
+      "shortDescription": "Delight your guests with a delectable menu and exquisite food presentation.",
+      "fullDescription": "Our catering and food presentation services are designed to delight your guests with a delectable menu and exquisite food presentation. From appetizers to the main course and desserts, our culinary experts will create a menu tailored to your preferences and dietary requirements. We believe that presentation is as important as taste, and we take pride in beautifully plated dishes that are sure to impress. Whether you're hosting an intimate gathering or a grand celebration, our catering services will leave a lasting impression on your guests.",
+      "buttonColor": "#33FF57",
+      "keyelements": "Our catering and food presentation services focus on key elements that elevate the dining experience for your guests.",
+      "Elements": {
+        "CustomizedMenus": "We offer customized menus to suit your taste preferences and dietary requirements, ensuring every guest is catered to.",
+        "ExquisitePresentation": "Our culinary team excels in the art of food presentation, creating dishes that not only taste amazing but also look stunning.",
+        "WideMenuVariety": "Choose from a wide variety of cuisines and dishes, from traditional favorites to exotic international flavors.",
+        "ProfessionalService": "Our experienced staff provides professional and attentive service to ensure a seamless dining experience for your guests.",
+        "High-QualityIngredients": "We use only the finest, freshest, and high-quality ingredients to prepare your dishes.",
+        "Sustainability": "We are committed to sustainable practices, minimizing waste, and ensuring responsible sourcing of ingredients."
+      },
+      "BeautifulImages": [
+        { "id": 1, "url": "https://i.ibb.co/8Bv7B5W/iamge-2.jpg" },
+        { "id": 2, "url": "https://i.ibb.co/7pV95yF/iamge-4.jpg" },
+        { "id": 3, "url": "https://i.ibb.co/ypR63vs/iamge-5.jpg" },
+        { "id": 4, "url": "https://i.ibb.co/kDkJsvV/image-3.jpg" },
+        { "id": 5, "url": "https://i.ibb.co/ChvhqG7/iamge-7.jpg" },
+        { "id": 6, "url": "https://i.ibb.co/98wzN0V/image-6.jpg" }
+      ]
+      },
+    {
+      "serviceId": "05",
+      "name": "Rent A Car & Car Decoration",
+      "slogan": "Arrive in Style, Depart with Elegance.",
+      "image": "https://amarsheba.com/wp-content/uploads/2016/11/Wedding-Car-Decoration-Service-in-Dhaka-598x266.jpg",
+      "price": "$800 - $1,500",
+      "shortDescription": "Arrive in style with our luxurious wedding car rental and decoration services.",
+      "fullDescription": "Make a grand entrance on your wedding day with our Rent A Car & Car Decoration services. We offer a fleet of luxurious vehicles to choose from, ensuring you arrive in style. Our expert team will decorate your chosen car to match your wedding theme, from floral arrangements to elegant ribbons and bows. We pay attention to every detail, ensuring your wedding transportation is both stylish and comfortable. Let us make your journey to the wedding venue as memorable as the ceremony itself.",
+      "buttonColor": "#FF9933",
+      "keyelements": "Our Rent A Car & Car Decoration services focus on key elements that make your wedding transportation and arrival unforgettable.",
+      "Elements": {
+        "LuxuriousFleet": "Choose from a fleet of luxurious vehicles to arrive at your wedding venue in style.",
+        "ThemeMatchingDecor": "We meticulously decorate the chosen car to match your wedding theme, ensuring a cohesive look.",
+        "AttentionToDetail": "We pay close attention to every detail, from floral arrangements to ribbons and bows.",
+        "ComfortableRide": "Our priority is not just style but also comfort, ensuring a pleasant journey to your wedding venue.",
+        "MemorableArrival": "We aim to make your arrival at the wedding venue a memorable and elegant experience.",
+        "ExperiencedTeam": "Our experienced team handles both car rental and decoration, ensuring a seamless service."
+      },
+      "BeautifulImages": [
+        { "id": 1, "url": "https://i.ibb.co/8Bv7B5W/iamge-2.jpg" },
+        { "id": 2, "url": "https://i.ibb.co/7pV95yF/iamge-4.jpg" },
+        { "id": 3, "url": "https://i.ibb.co/ypR63vs/iamge-5.jpg" },
+        { "id": 4, "url": "https://i.ibb.co/kDkJsvV/image-3.jpg" },
+        { "id": 5, "url": "https://i.ibb.co/ChvhqG7/iamge-7.jpg" },
+        { "id": 6, "url": "https://i.ibb.co/98wzN0V/image-6.jpg" }
+      ]
+      },
+    {
+      "serviceId": "06",
+      "name": "Live Bands & Entertainers",
+      "slogan": "Setting the Stage for Unforgettable Moments.",
+      "image": "https://i.ibb.co/hD4JGCT/image-1.jpg",
+      "price": "$1,500 - $4,000",
+      "shortDescription": "Keep the party going with live bands and entertainers that will wow your guests.",
+      "fullDescription": "Our live bands and entertainers are here to keep the party going and wow your guests. From energetic live music to captivating dance performances, we offer a range of entertainment options to suit your wedding style and preferences. Our talented performers will create an unforgettable atmosphere, ensuring that your guests have a fantastic time. Whether you want a live band to get everyone on the dance floor or a mesmerizing dance group to add a touch of glamour, we've got you covered.",
+      "buttonColor": "#FF8533",
+      "keyelements": "Our Live Bands & Entertainers service focuses on key elements that create an unforgettable entertainment experience for your wedding guests.",
+      "Elements": {
+        "VersatileEntertainment": "We offer a variety of entertainment options, from live bands to dance performances, to suit your preferences.",
+        "TalentedPerformers": "Our talented performers are skilled at engaging the audience and creating an electric atmosphere.",
+        "CustomizedPerformances": "We can customize performances to match your wedding theme and style, ensuring a unique experience.",
+        "InteractiveExperience": "We encourage audience participation and interaction to keep the energy levels high.",
+        "ProfessionalProduction": "Our team ensures a professional and seamless production, from sound to lighting and stage setup.",
+        "UnforgettableMoments": "We aim to create unforgettable moments that your guests will talk about for years to come."
+      },
+      "BeautifulImages": [
+        { "id": 1, "url": "https://i.ibb.co/8Bv7B5W/iamge-2.jpg" },
+        { "id": 2, "url": "https://i.ibb.co/7pV95yF/iamge-4.jpg" },
+        { "id": 3, "url": "https://i.ibb.co/ypR63vs/iamge-5.jpg" },
+        { "id": 4, "url": "https://i.ibb.co/kDkJsvV/image-3.jpg" },
+        { "id": 5, "url": "https://i.ibb.co/ChvhqG7/iamge-7.jpg" },
+        { "id": 6, "url": "https://i.ibb.co/98wzN0V/image-6.jpg" }
+      ]
+      },
+    
+    {
+      "serviceId": "07",
+      "name": "Wedding Planning Consultation",
+      "slogan": "Turning Dreams into Reality, One Detail at a Time.",
+      "image": "https://images.squarespace-cdn.com/content/v1/5a8ea705be42d6bd646f5b7d/1540043648663-S3ZYT5Z998ULXUN34P64/Wedding%2Bplanning%2Bchecklist.jpeg",
+      "price": "$500 - $1,000",
+      "shortDescription": "Get expert advice and guidance for planning your dream wedding.",
+      "fullDescription": "Our Wedding Planning Consultation service is perfect for couples who want expert advice and guidance in planning their dream wedding. Our experienced wedding planners will work closely with you to understand your vision and provide valuable insights to make your wedding day truly special. Whether you need assistance with venue selection, vendor coordination, or theme design, we're here to help you every step of the way. Let us take the stress out of wedding planning and ensure that your big day goes off without a hitch.",
+      "buttonColor": "#FF5733",
+      "keyelements": "Our Wedding Planning Consultation service focuses on key elements that turn your wedding dreams into a reality, one detail at a time.",
+      "Elements": {
+        "ExpertGuidance": "Our experienced wedding planners provide expert guidance to help you make informed decisions.",
+        "VisionUnderstanding": "We work closely to understand your vision, ensuring your wedding reflects your unique style and preferences.",
+        "VendorCoordination": "We coordinate with vendors to ensure seamless execution, from catering to entertainment.",
+        "ThemeDesign": "We assist in theme design and decor to create a cohesive and beautiful wedding atmosphere.",
+        "Stress-FreePlanning": "Our goal is to take the stress out of wedding planning, allowing you to enjoy the process.",
+        "DetailedChecklists": "We provide detailed checklists and timelines to keep everything organized and on track."
+      },
+      "BeautifulImages": [
+        { "id": 1, "url": "https://i.ibb.co/8Bv7B5W/iamge-2.jpg" },
+        { "id": 2, "url": "https://i.ibb.co/7pV95yF/iamge-4.jpg" },
+        { "id": 3, "url": "https://i.ibb.co/ypR63vs/iamge-5.jpg" },
+        { "id": 4, "url": "https://i.ibb.co/kDkJsvV/image-3.jpg" },
+        { "id": 5, "url": "https://i.ibb.co/ChvhqG7/iamge-7.jpg" },
+        { "id": 6, "url": "https://i.ibb.co/98wzN0V/image-6.jpg" }
+      ]
+      },
+    {
+      "serviceId": "08",
+      "name": "Hair & Makeup Styling",
+      "slogan": "Unlocking Your Inner Beauty, Radiance Awaits.",
+      "image": "https://th-i.thgim.com/public/life-and-style/travel/5r44qg/article66865227.ece/alternates/FREE_1200/DVP07582.JPG",
+      "price": "$300 - $800",
+      "shortDescription": "Look stunning on your wedding day with professional hair and makeup styling.",
+      "fullDescription": "Our Hair & Makeup Styling service is designed to make you look and feel stunning on your wedding day. Our skilled team of hairstylists and makeup artists will work with you to create the perfect bridal look that enhances your natural beauty. From elegant updos to flawless makeup, we use high-quality products and techniques to ensure you look radiant from morning till night. Whether you want a classic bridal look or a modern twist, we'll make sure you shine on your special day.",
+      "buttonColor": "#4287f5",
+      "keyelements": "Our Hair & Makeup Styling service focuses on key elements that unlock your inner beauty and radiance.",
+      "Elements": {
+        "ProfessionalStyling": "Our skilled hairstylists and makeup artists provide professional styling that enhances your natural beauty.",
+        "PersonalizedLooks": "We work with you to create personalized looks that match your style and preferences.",
+        "High-QualityProducts": "We use high-quality hair and makeup products to ensure a flawless and long-lasting bridal look.",
+        "Versatility": "Whether you want a classic or modern look, our team can create the perfect style for your wedding day.",
+        "RadiantGlow": "Our goal is to make you look and feel radiant, ensuring you shine on your special day.",
+        "All-DayPerfection": "We ensure your hair and makeup stay perfect from morning preparations to the end of the celebration."
+      },
+      "BeautifulImages": [
+        { "id": 1, "url": "https://i.ibb.co/8Bv7B5W/iamge-2.jpg" },
+        { "id": 2, "url": "https://i.ibb.co/7pV95yF/iamge-4.jpg" },
+        { "id": 3, "url": "https://i.ibb.co/ypR63vs/iamge-5.jpg" },
+        { "id": 4, "url": "https://i.ibb.co/kDkJsvV/image-3.jpg" },
+        { "id": 5, "url": "https://i.ibb.co/ChvhqG7/iamge-7.jpg" },
+        { "id": 6, "url": "https://i.ibb.co/98wzN0V/image-6.jpg" }
+      ]
+      },
+    {
+      "serviceId": "09",
+      "name": "Flower Arrangements & Decor",
+      "slogan": "Blooms of Love, Setting the Scene for Romance.",
+      "image": "https://cdn.mos.cms.futurecdn.net/zZthUEQHJLmXGRQgXip6fU-1024-80.jpg.webp",
+      "price": "$1,000 - $3,000",
+      "shortDescription": "Elevate your wedding decor with beautiful flower arrangements and decor.",
+      "fullDescription": "Elevate your wedding decor with our Flower Arrangements & Decor service. We specialize in creating stunning floral arrangements and decor that add a touch of elegance and romance to your wedding venue. From breathtaking centerpieces to delicate floral arches, our floral designers will bring your floral vision to life. We pay attention to every detail, ensuring that every bloom is fresh and beautiful. Whether you're planning an indoor or outdoor wedding, our flower arrangements and decor will create a captivating atmosphere that leaves a lasting impression.",
+      "buttonColor": "#FFD700",
+      "keyelements": "Our Flower Arrangements & Decor service focuses on key elements that set the scene for romance and love at your wedding.",
+      "Elements": {
+        "StunningFloralArrangements": "Our floral designers create stunning arrangements that add elegance and beauty to your wedding venue.",
+        "CustomizedDecor": "We customize floral decor to match your wedding theme and color palette, ensuring a cohesive look.",
+        "FreshBlooms": "We use fresh and beautiful blooms in all our arrangements to create a visually captivating atmosphere.",
+        "AttentionToDetail": "We pay meticulous attention to every detail, ensuring that every floral element is perfect.",
+        "VersatileDesigns": "Whether you prefer classic or modern floral designs, we offer versatile options to suit your style.",
+        "RomanticAmbiance": "Our goal is to create a romantic ambiance with blooms of love, leaving a lasting impression on your guests."
+      },
+      "BeautifulImages": [
+        { "id": 1, "url": "https://i.ibb.co/8Bv7B5W/iamge-2.jpg" },
+        { "id": 2, "url": "https://i.ibb.co/7pV95yF/iamge-4.jpg" },
+        { "id": 3, "url": "https://i.ibb.co/ypR63vs/iamge-5.jpg" },
+        { "id": 4, "url": "https://i.ibb.co/kDkJsvV/image-3.jpg" },
+        { "id": 5, "url": "https://i.ibb.co/ChvhqG7/iamge-7.jpg" },
+        { "id": 6, "url": "https://i.ibb.co/98wzN0V/image-6.jpg" }
+      ]
+      }
+  ]
+

@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from './../providers/AuthProvider';
-import { toast } from 'react-toastify';
+import toast, { Toaster } from 'react-hot-toast';
 import 'react-toastify/dist/ReactToastify.css';
 import {FiLock, FiMail} from 'react-icons/fi';
 import {FcGoogle} from 'react-icons/fc';
@@ -92,7 +92,7 @@ const Login = () => {
                         </form>
                         <p>
                             New to this site? Please{" "}
-                            <Link to="/Registration">
+                            <Link to="/register">
                                 <button className="btn btn-link">Register</button>
                             </Link>{" "}
                         </p>
