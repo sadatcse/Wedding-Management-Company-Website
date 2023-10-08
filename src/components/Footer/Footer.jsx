@@ -1,17 +1,18 @@
 import React from 'react';
 import { FaMailchimp, FaMapMarkerAlt, FaMobileAlt } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <footer className="footer p-10 text-base-content" style={{ backgroundImage: "url('https://i.ibb.co/r0nWmTM/footer-bg.webp')" }}>
+        <footer className="footer p-5 text-base-content" style={{ backgroundImage: "url('https://i.ibb.co/r0nWmTM/footer-bg.webp')" }}>
         <aside className=''>
-        <div class="flex items-center">
-    <img src="https://www.transparentpng.com/thumb/s/lkybg6-file-bahn-logo-svg-wikimedia-commons.png" alt="Your Image Description" class="w-9 h-9"></img>
-    <p class="font-bold ml-2">S Wedding Planner<br/>Crafting Moments, Creating Memories</p>
+        <div class="flex items-center text-center">
+    
+    <p class="font-pacifico font-bold ml-2 text-5xl text-red-950	">S Wedding Planner<br/><span className='text-xl font-serif text-amber-900'>Crafting Moments, Creating Memories </span></p>
     
 </div>
 <div className=''>
-<p>Welcome to S Wedding Event, where dreams become reality. Our passionate team crafts unforgettable moments with meticulous attention to detail.
+<p className='font-mono	'>Welcome to S Wedding Event, where dreams become reality. Our passionate team crafts unforgettable moments with meticulous attention to detail.
 From venue selection to entertainment,we tailor our services to your unique vision. Explore our portfolio, read glowing testimonials, and let us bring your dream wedding to life.</p>
 </div>
 
@@ -19,17 +20,18 @@ From venue selection to entertainment,we tailor our services to your unique visi
         </aside> 
         <nav className='mx-8'>
           <header className="footer-title text-xl font-bold">Services</header> 
-          <a className="link link-hover">Venue Booking</a> 
-          <a className="link link-hover">Live Entertainment</a> 
-          <a className="link link-hover">Invitation Design & Printing</a> 
-          <a className="link link-hover">Catering & Food Presentation</a>
+                
+                 <Link to="/service/01"><a className="link link-hover">Venue Booking</a></Link> 
+                 <Link to="/service/06"><a className="link link-hover">Live Entertainment</a></Link>
+                 <Link to="/service/01"><a className="link link-hover">Invitation Design & Printing</a></Link>
+                 <Link to="/service/04"><a className="link link-hover">Catering & Food Presentation</a></Link>
         </nav> 
         <nav className='mx-8'>
           <header className="footer-title text-xl">Company</header> 
-          <a className="link link-hover">About us</a> 
-          <a className="link link-hover">Contact</a> 
-          <a className="link link-hover">Packages</a> 
-          <a className="link link-hover">Portfolio</a>
+          <Link to="about"><a className="link link-hover">About us</a></Link>
+          <Link to="/contact"><a className="link link-hover">Contact</a></Link>
+          <Link to="/faq"><a className="link link-hover">Faq</a></Link>
+          <Link to="/portfolio"><a className="link link-hover">Portfolio</a></Link>
         </nav> 
         <aside className='mx-8'>
   <header className="footer-title text-xl">Contact Us</header>

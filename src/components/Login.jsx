@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from './../providers/AuthProvider';
 import toast, { Toaster } from 'react-hot-toast';
 import 'react-toastify/dist/ReactToastify.css';
@@ -12,6 +12,8 @@ const Login = () => {
     const navigate = useNavigate();
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+    const location = useLocation();
+    console.log('location i n the login page', location)
 
     const handleLogin = (e) => {
         e.preventDefault();
@@ -20,7 +22,7 @@ const Login = () => {
             .then((result) => {
                 toast.success("Login successful!");
                 e.target.reset();
-                navigate('/');
+                navigate(location.state?.from || "/");
             })
             .catch((error) => {
                 toast.error("Login failed. Please check your Email or Password.");
@@ -32,6 +34,7 @@ const Login = () => {
         signInWithGoogle()
             .then((result) => {
                 toast.success("login successful!");
+                navigate(location.state?.from || "/");
             })
             .catch((error) => {
                 toast.error("Social login failed. Please try again later.");
@@ -91,10 +94,10 @@ const Login = () => {
                             </div>
                         </form>
                         <p>
-                            New to this site? Please{" "}
+                            New to this site? Please
                             <Link to="/register">
                                 <button className="btn btn-link">Register</button>
-                            </Link>{" "}
+                            </Link>
                         </p>
                         <p>
                             <button onClick={handleGoogleSignIn} className="btn btn-ghost btn-outline ps-5">

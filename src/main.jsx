@@ -6,14 +6,14 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css'
-import { DataProvider } from './context/DataContext'
+
 
 
 
 import Home from './components/Home';
 import Login from './components/Login';
 import Contact from './components/Page/Contact';
-import Packages from './components/Page/Packages';
+import Faq from './components/Page/Faq';
 import Portfolio from './components/Page/Portfolio';
 import About from './components/Page/About';
 import Services from './components/Page/Services/Services';
@@ -60,8 +60,10 @@ const router = createBrowserRouter([
         element:<PrivateRoute><Portfolio></Portfolio></PrivateRoute>
       },
       {
-        path:'/packages',
-        element:<PrivateRoute><Packages></Packages></PrivateRoute>
+        path:'/faq',
+        element:<PrivateRoute><Faq></Faq></PrivateRoute>,
+        loader: () => fetch('/FaqData.json') 
+
       },
       {
         path:'/contact',

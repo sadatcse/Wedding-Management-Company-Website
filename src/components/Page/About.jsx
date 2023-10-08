@@ -2,13 +2,20 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className="bg-gray-100 p-8 mx-auto max-w-screen-xl p-4">
-            <h2 className="text-2xl font-bold mb-4">About Us:</h2>
+        <div>
+<div>
+<img src="https://i.ibb.co/py8cc8b/P20-L1-About-us.jpg" alt="" />
+</div>
+
+<div className="p-8 mx-auto max-w-screen-xl p-4">
+            <h2 className="font-pacifico text-5xl text-blue-500 mb-4 text-center">About Us</h2>
             <p className="text-gray-700 mb-8">
                 At S Wedding Planner, our journey began in 2020, specializing in catering. Driven by popular demand, we gradually expanded into comprehensive wedding event planning, logistics, and management. Our reputation quickly flourished, thanks to our innovation, professionalism, and adaptability. We take pride in meeting the unique needs of our clients and maintaining a relentless pursuit of perfection. In 2023, we rebranded ourselves as S Wedding Planner to better reflect our evolving services. Over the years, we have successfully catered to a wide range of events, from intimate home weddings to grand VIP extravaganzas, ensuring memorable experiences for all.
             </p>
 
-            <h3 className="text-xl font-bold mb-4">Why Choose Us:</h3>
+<div className='grid grid-flow-col justify-stretch'>
+    <div>
+    <h3 className="text-xl font-bold mb-4">Why Choose Us:</h3>
             <ul className="list-disc pl-4 mb-8">
                 <li className="mb-2">Bring Your Dream Wedding Vision to Life: We specialize in transforming your dream wedding into a spectacular reality, offering creativity and meticulous planning.</li>
                 <li className="mb-2">Manage Your Budget: We are adept at managing budgets, ensuring you get the most out of your wedding experience.</li>
@@ -19,6 +26,12 @@ const About = () => {
                 <li className="mb-2">Timeline Professionals: We excel in keeping your event timeline seamless and efficient.</li>
                 <li className="mb-2">Let Your Friends and Family Enjoy Your Wedding Day with You: We handle the logistics, so your loved ones can fully immerse themselves in the celebration.</li>
             </ul>
+    </div>
+
+    <div className='m-5'>
+        <img className='h-3/4' src="https://i.ibb.co/mcVGfyw/new-why-choice.jpg" alt="" />
+    </div>
+</div>
 
             <h3 className="text-xl font-bold mb-4">Our Promise to You:</h3>
             <p className="text-gray-700 mb-8">
@@ -39,6 +52,10 @@ const About = () => {
                 We are committed to ensuring that your event is not only memorable but also safe and secure.
             </p>
         </div>
+        </div>
+
+        
+        
     );
 };
 

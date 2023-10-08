@@ -68,7 +68,7 @@ const Register = () => {
     return (
         <div className="bg-gray-100 min-h-screen flex items-center justify-center">
         <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
-          <h2 className="text-3xl mb-8 text-center">Please Register</h2>
+          <h2 className="text-3xl mb-8 text-center">Sign up to S Wedding Planner!</h2>
           <form onSubmit={handleRegister}>
                     <input className="mb-4 relative border w-full  py-2 px-4" type="text" name="name" placeholder="Your Name" id="namereg" required />
                     <br />

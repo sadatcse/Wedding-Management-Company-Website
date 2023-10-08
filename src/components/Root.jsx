@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Allright from './Footer/Allright';
 import Footer from './Footer/Footer';
 import { Toaster } from 'react-hot-toast';
+
 const Root = () => {
     return (
         <div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const FreeConsultation = () => {
     return (
@@ -9,9 +10,8 @@ const FreeConsultation = () => {
             <p className="text-lg text-black mt-4">
                 Let Special Event Genie create the event of YOUR dreams.
             </p>
-            <button className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold text-lg px-6 py-2 mt-6 rounded-full transition duration-300">
-                CONTACT US
-            </button>
+            <Link to="/contact"><button className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold text-lg px-6 py-2 mt-6 rounded-full transition duration-300">CONTACT US</button></Link>
+            
             <div className="border-t-4 border-blue-600 border-b-4 border-blue-600 p-4 mt-6"></div>
         </div>
     );

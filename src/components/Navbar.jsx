@@ -24,12 +24,12 @@ const Navbar = () => {
     <li><NavLink to="/about">About</NavLink></li>
     <li><NavLink to="/service">Service</NavLink></li>
     <li><NavLink to="/portfolio">Portfolio</NavLink></li>
-    <li><NavLink to="/packages">Packages</NavLink></li>
+    <li><NavLink to="/faq">FAQ</NavLink></li>
     <li><NavLink to="/contact">Contact</NavLink></li>
     <li><NavLink to="/register">Registration</NavLink></li>
     { user && <>
-            <li><NavLink to="/profile">Profile</NavLink></li>
-            <li><NavLink to="/dashboard">Dashboard</NavLink></li>
+            <li><NavLink to="/">Profile</NavLink></li>
+            <li><NavLink to="/">Dashboard</NavLink></li>
         </>}
     </>
 
@@ -45,7 +45,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="flex items-center">
-            <img src="logo.png" alt="Company Logo"className="h-2/4 w-2/4 mr-2"/>
+            <img src="https://assignment-project-8.web.app/logo.png" alt="Company Logo"className="h-2/4 w-2/4 mr-2"/>
 
           </div>
             </div>
