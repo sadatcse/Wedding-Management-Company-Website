@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import '../../Section/Section.css';
 
-import Service from './service';
+
 import { useLoaderData } from 'react-router-dom';
+import Service from './Service';
 
 const Services = () => {
     const cardsData = useLoaderData();

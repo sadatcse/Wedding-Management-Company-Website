@@ -29,7 +29,7 @@ const About = () => {
     </div>
 
     <div className='m-5'>
-        <img className='h-3/4' src="https://i.ibb.co/mcVGfyw/new-why-choice.jpg" alt="" />
+        <img className='h-3/4 hidden sm:block' src="https://i.ibb.co/mcVGfyw/new-why-choice.jpg" alt="" />
     </div>
 </div>
 

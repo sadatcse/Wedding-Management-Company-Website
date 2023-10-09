@@ -28,8 +28,7 @@ const Navbar = () => {
     <li><NavLink to="/contact">Contact</NavLink></li>
     <li><NavLink to="/register">Registration</NavLink></li>
     { user && <>
-            <li><NavLink to="/">Profile</NavLink></li>
-            <li><NavLink to="/">Dashboard</NavLink></li>
+            <li><NavLink to="/profile">Profile</NavLink></li>
         </>}
     </>
 
@@ -68,7 +67,7 @@ const Navbar = () => {
                         <a onClick={handleLogOut} className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Sign out</a>
                     </> 
                     : <NavLink><Link to="/login">
-                        <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Login</button>
+                        <button className="btn btn-warning ">Login</button>
                     </Link></NavLink>
                 }
                 

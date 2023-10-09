@@ -23,6 +23,7 @@ import PrivateRoute from './routes/PrivateRoute';
 import Root from './components/Root';
 import Register from './components/Register/Register'
 import Detailsservice from './components/Page/Services/Detailsservice';
+import DetailsPortfolio from './components/Page/Portfolio/DetailsPortfolio';
 
 
 
@@ -57,7 +58,8 @@ const router = createBrowserRouter([
       },
       {
         path:'/portfolio',
-        element:<PrivateRoute><Portfolio></Portfolio></PrivateRoute>
+        element:<PrivateRoute><Portfolio></Portfolio></PrivateRoute>,
+        loader: () => fetch('/eventlist.json') 
       },
       {
         path:'/faq',
@@ -73,7 +75,13 @@ const router = createBrowserRouter([
         path: '/service/:id',
         element:<PrivateRoute><Detailsservice></Detailsservice></PrivateRoute>, 
         loader: () => fetch('/ServiceData.json') 
+      },
+      {
+        path: '/portfolio/:id',
+        element:<PrivateRoute><DetailsPortfolio></DetailsPortfolio></PrivateRoute>, 
+        loader: () => fetch('/eventlist.json')
       }
+      
     ]
   },
 ]);

@@ -6,6 +6,7 @@ import WhyChooseUs from './Section/WhyChooseUs';
 import FreeConsultation from './Section/FreeConsultation';
 import ServiceSucessOrganizer from './Section/ServiceSucessOrganizer';
 import { useLoaderData } from 'react-router-dom';
+import ClientPartnersSection from './Section/Patners';
 
 const Home = () => {
     
@@ -18,8 +19,8 @@ const Home = () => {
             <WelcomeMessage></WelcomeMessage>
             <ServicesHighlights cardsData={cardsData}></ServicesHighlights>
             <ServiceSucessOrganizer></ServiceSucessOrganizer>
-            
             <WhyChooseUs></WhyChooseUs>
+            <ClientPartnersSection></ClientPartnersSection>
             <FreeConsultation></FreeConsultation>
         </div>
     );
