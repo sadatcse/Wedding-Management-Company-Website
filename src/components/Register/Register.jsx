@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { Link } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import toast from 'react-hot-toast';
 import { AuthContext } from './../../providers/AuthProvider';
@@ -8,6 +8,7 @@ import { updateProfile } from "firebase/auth";
 const Register = () => {
   const { createUser,setUser } = useContext(AuthContext);
     const [showPassword, setShowPassword] = useState(false);
+    const navigate = useNavigate();
 
 
     const handleRegister = e => {
@@ -45,21 +46,26 @@ const Register = () => {
           createUser(email, password)
           .then(result => {
             console.log(result.user);
+            
+            
             updateProfile(result.user, {
               displayName: name,
               photoURL: "https://www.shareicon.net/data/128x128/2016/09/15/829452_user_512x512.png"
-            })
+            } )
             .then(() => {
-              setUser(result.user);
-              console.log('profile updated');
+              toast.success('New User Create Sucessful');
+              navigate("/");
+              
+              
             })
             .catch(error => {
-              console.error(error);
+              toast.error(error.message);
             });
           })
           .catch(error => {
-            console.error(error);
+            toast.error(error.message);
           });
+          
         
 
 
